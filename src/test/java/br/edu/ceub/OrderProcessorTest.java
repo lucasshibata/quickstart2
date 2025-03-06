@@ -18,6 +18,7 @@ class OrderProcessorTest {
         );
         Order order = new Order("ORD123", items);
         OrderProcessor orderProcessor = new OrderProcessor();
+
         //executar
         double result = orderProcessor.computeTotal(order);
 
